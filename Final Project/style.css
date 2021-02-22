@@ -1,0 +1,83 @@
+.container{
+	display: grid;
+	width: 1200px;
+	margin:10px 20px 20px 76px; 	
+	 
+
+	grid-template-columns: 200px 200px; 
+	grid-template-rows:300px 250px; 
+	grid-gap: 150px;
+	grid-row-gap:30px;
+	
+
+}
+
+.btn{
+
+
+	font-style: none;
+	font-size: 14px;
+	width: 150px;
+	height: 100px;
+	border-radius: 24px;
+
+}
+
+#lima{
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),url(foto/html.png) center/cover fixed;
+	height: 100%;
+	width: 600px;
+	grid-row-start:1;
+	grid-row-end: 1;
+}
+#fpoo{
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),url(foto/fpoo.png) center/cover fixed;
+	height: 100%;
+	width: 600px;
+	margin: 0px 0px 0px 300px;
+	grid-row-start:1;
+	grid-row-end:1 ;  
+}
+#hare{
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),url(foto/hare.jpg) center/cover fixed;
+	height: 100%;
+	width: 600px;
+	grid-row-start:2;
+	grid-row-end: 2; 
+}
+
+#sop{
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),url(foto/sop.png) center/cover fixed;
+	height: 100%;
+	width: 600px;
+	margin: 0px 100px 0px 300px;
+	grid-row-start:2;
+	grid-row-end: 2;
+}
+
+h1{
+	text-align:center; 
+}
+a {
+	font-size: 30px;
+	color: whitesmoke;
+	font-weight: bold;
+
+}
+
+.btn:hover{
+	 box-shadow: 0px 0px 90px #000000;
+ 	 z-index: 4;
+ 	 -webkit-transition: all 200ms ease-in;
+ 	 -webkit-transform: scale(1.2);
+ 	 -ms-transition: all 200ms ease-in;
+ 	 -ms-transform: scale(1.2);   
+ 	 -moz-transition: all 200ms ease-in;
+ 	 -moz-transform: scale(1.2);
+ 	 transition: all 200ms ease-in;
+ 	 transform: scale(1.2);
+}
+
+#cabecalho{
+	background: red;
+}

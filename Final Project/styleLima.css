@@ -1,0 +1,167 @@
+body{
+	background: url(foto/sop.png);
+}
+.topo{
+	position: relative;
+	top:10px;
+	left: 300px;
+	z-index: 3;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.container{
+	display: grid;
+	background: #808080de;
+	border-radius: 10px;
+	height: 602px;
+	width:96%;
+	margin: 30px 80px 10px 26px;
+	padding: 20px 10px 0px 10px;
+
+	grid-auto-columns: 300px 300px 300px;
+	grid-auto-rows: 300px 300px;
+	justify-content: space-between;
+	grid-column-gap: 6px;
+	grid-row-gap: 6px;
+	align-items: center;
+	font-family: 'Carter One', cursive;
+	
+}
+
+
+.card{
+	
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+#div-in{
+	background: red;
+	width: 150px;
+	height: 20px;
+	float: left;
+}
+
+
+#div-fpo{
+	background: red;
+	width: 300px;
+	height: 20px;
+	float: left; 
+}
+
+#div-so{
+	background: red;
+	width: 150px;
+	height: 20px;
+	float: left; 
+}
+
+#div-lim{
+	background: red;
+	width: 150px;
+	height: 20px;
+	float: left; 
+}
+
+#div-har{
+	background: red;
+	width: 150px;
+	height: 20px;
+	float: left; 
+}
+
+a{
+	text-decoration-line: none;
+	text-decoration-color: white;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+a:hover{
+	z-index: 3;
+	color: #c433e8;
+}
+
+.posi1{
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+
+}
+
+.posi1baixo {
+	border-radius: 10px;
+	background-image: url(foto/lima3.jpg);
+	position: flex;
+	height: 86%;
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+.posi1baixo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.priimg:hover{
+	transition: 4s;
+	transition: 4s;
+	transform: rotateY(180deg);
+	opacity: 0;
+	filter: blur(10px);
+}
+
+.posi2{
+	text-align: center;
+	grid-column-start: 2; 
+	grid-column-end: 2;
+}
+
+.posi2baixo {
+	border-radius: 10px;
+	background-image: url(foto/lima2.jpg);
+	position: flex;
+	height: 86%;
+	text-align: center;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+.posi2baixo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+
+.posi3{
+	text-align: center;
+	grid-column-start: 3;
+	grid-column-end: 3;
+}
+.posi3baixo {
+	border-radius: 10px;
+	background-image: url(foto/lima1.png);
+	position: flex;
+	height: 86%;
+	text-align: center;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+.posi3baixo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
